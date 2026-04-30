@@ -1,18 +1,13 @@
-These folders contain all of the finalized code required to interface and operate a Keysight N9310A RF Signal Generator, Agilent CSA 1996A Spectrum Analyzer, and MATLAB for the purposes of determining the beampattern of a prototype antenna.
+This repository contains simulations and models of Bicone, Rounded Bowtie, Discone, and Thick Dipole antenna directivity patterns, as well as incident plane wave excitation of those antennas as feedpoint elements for Uniform Linear Arrays, Uniform Rectangular Arrays, and Uniform Circular Arrays of 4, 6, and 8 elements.
 
-This interface is intended to be performed with a computer running Keysight Connection Expert and MATLAB with the Instrument Control Toolbox and the Instrument Control Toolbox Support Package for Keysight IO Libraries and VISA Interface support package.
+This code is entirely simulated and does not contain real-world measurements or hardware interfaces.
 
-USB (as is native to the Keysight N9310A RF Signal Generator) and Ethernet (as is native to the Agilent CSA 1996A Spectrum Analyzer)peripherals are required for this software to function, as well as a "dumb" network switch with statically assigned IP addresses.
+Code for simulations of the performance of the finalized 6-element Uniform Circular Array as deployed for this project can be found at:
 
-This repository DOES NOT include code required to interface the ADALM-PLUTO Rev C SDRs with the Raspberry Pi 5B nor with the LSM6DSO IMU, LIS3MDL Magnetometer, MS5607-02BA03 Altimeter, Digi XBee 3 Pro, nor Radio Frequency Front End boards.
+https://github.com/SL-UAV-MQP/MUSIC_UCA_6_MATLAB
 
-Code for interfacing the ADALM-PLUTO Rev C SDRs with the Raspberry Pi 5B can be found at:
+Code for simulations of the performance of the finalized system as deployed to Central Massachusetts Radio Control Modelers field in Northborough, MA can be found at:
 
-https://github.com/SL-UAV-MQP/pi_C_code2 
-https://github.com/SL-UAV-MQP/pi_C_code
-
-Code for interfacing the LSM6DSO IMU, LIS3MDL Magnetometer, MS5607-02BA03 Altimeter, Digi XBee 3 Pro, and Radio Frequency Front End boards with the Raspberry Pi 5B can be found at:
-
-https://github.com/SL-UAV-MQP/Attitude_Sensor_Telemetry_GPIO_Testsets
+https://github.com/SL-UAV-MQP/MQP_CMRCM_Simulation_MATLAB
 
 All code in this repository and related repositories is a portion of materials for a Major Qualifying Project (MQP), submitted to the faculty of Worcester Polytechnic Institute (WPI) in partial fulfillment of the requirements for the Degree of Bachelor of Science in Electrical and Computer Engineering, as completed by John Frahm, Carthene McTague, Ann Phan, Heath Sainio, and John Song.
